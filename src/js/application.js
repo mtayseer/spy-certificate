@@ -169,8 +169,7 @@ var certificateOptions = {
           if( char === '>' ) isTag = false;
 
           if (isTag) return type();
-          setTimeout(type, 0);
-          //setTimeout(type, 80);
+          setTimeout(type, 80);
       
       }());
 
